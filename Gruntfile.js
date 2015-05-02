@@ -6,7 +6,6 @@ module.exports = function(grunt) {
       banner: '/**\n' + ' * <%= pkg.description %>\n' +
         ' * @version v<%= pkg.version %> - <%= grunt.template.today("yyyy-mm-dd") %>\n' +
         ' * @author <%= pkg.author.name %>\n' +
-        ' * @link <%= pkg.homepage %>\n' +
         ' * @license <%= pkg.license %>\n**/\n\n'
     },
     concat: {

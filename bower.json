@@ -1,0 +1,30 @@
+{
+  "name": "angular-bitwise-filter",
+  "version": "0.1.0",
+  "author": {
+    "name": "Leonardo Borges Avelino",
+    "email": "lborgav@gmail.com",
+    "url": "lborgav.com"
+  },
+  "dependencies": {
+    "angular": "*"
+  },
+  "devDependencies": {
+    "angular-mocks": "*"
+  },
+  "description": "AngularJS filter for bitwise operations",
+  "main": "dist/angular-bitwise-filter.min.js",
+  "keywords": [
+    "angular",
+    "filter",
+    "bitwise"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

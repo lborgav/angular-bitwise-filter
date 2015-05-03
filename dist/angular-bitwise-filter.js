@@ -1,6 +1,6 @@
 /**
  * AngularJS filter for bitwise operations
- * @version v0.1.0 - 2015-05-03
+ * @version v0.1.2 - 2015-05-03
  * @author Leonardo Borges Avelino
  * @license MIT
 **/

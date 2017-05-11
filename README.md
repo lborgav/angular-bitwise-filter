@@ -36,7 +36,7 @@ angular.module('MyApp', ['bitwiseFilters']);
 In your app view html
 
 ```html
-<span ng-if="isActiveBit | bitwiseAnd : 1">
+<span ng-if="isActiveBit | bitwiseAND : 1">
 	Show this!
 </span>
 ```

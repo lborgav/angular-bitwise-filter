@@ -1,6 +1,6 @@
 /**
  * AngularJS filter for bitwise operations
- * @version v0.1.2 - 2015-05-03
+ * @version v0.1.3 - 2017-06-30
  * @author Leonardo Borges Avelino
  * @license MIT
 **/
@@ -57,5 +57,12 @@ mod.filter('bitwiseLS', function () {
 mod.filter('bitwiseZFRS', function () {
   return function (firstNumber, secondNumber) {
     return (firstNumber>>>secondNumber);
+  };
+});
+
+// Bitwise toggle by bit index
+mod.filter('bitwiseTOG', function () {
+  return function (number, bitIndex) {
+    return (number^(1<<bitIndex));
   };
 });

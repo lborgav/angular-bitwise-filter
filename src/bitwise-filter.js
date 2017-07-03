@@ -52,3 +52,10 @@ mod.filter('bitwiseZFRS', function () {
     return (firstNumber>>>secondNumber);
   };
 });
+
+// Bitwise toggle by bit index
+mod.filter('bitwiseTOG', function () {
+  return function (number, bitIndex) {
+    return (number^(1<<bitIndex));
+  };
+});
